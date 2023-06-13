@@ -1,0 +1,47 @@
+{
+  "name": "hrms-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www.js",
+    "dev": "nodemon ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/shibinkumarkmd/hrms-app-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/shibinkumarkmd/hrms-app-backend/issues"
+  },
+  "homepage": "https://gitlab.com/shibinkumarkmd/hrms-app-backend#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.0",
+    "form-data": "^4.0.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "log4js": "^6.3.0",
+    "moment": "^2.29.4",
+    "mongoose": "^5.13.14",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.2",
+    "require-all": "^3.0.0",
+    "swagger-ui-express": "^4.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
+  }
+}

@@ -1,0 +1,64 @@
+.login-wrap {
+  input,
+  button,
+  select {
+    height: 49px;
+  }
+  background-color: $login-bg;
+  height: 100%;
+  .card-body {
+    background-color: #ffffff;
+  }
+  .login-logo {
+    background-color: $login-head !important;
+    img {
+      max-width: 150px;
+    }
+    text-align: center;
+  }
+  .card,
+  .card-header {
+    background: none;
+    border: none;
+  }
+  .form-group {
+    label {
+      color: #666b4b;
+    }
+  }
+  .form-holder {
+    label {
+      color: $login-label;
+    }
+    .form-control {
+      border: 1px solid $login-border;
+      &:focus {
+        box-shadow: none;
+        border-color: none;
+      }
+    }
+  }
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: $login-plchdr !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $login-plchdr !important;
+  }
+
+  ::placeholder {
+    color: $login-plchdr !important;
+  }
+
+  .btn-primary {
+    background-color: $login-btn;
+    border-color: $login-btn;
+    padding: 8px 22px;
+    &:hover,
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

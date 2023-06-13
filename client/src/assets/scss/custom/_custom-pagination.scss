@@ -1,0 +1,26 @@
+.c-pagination{
+	&.flex-end{
+		display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	}
+	.page-item{
+		&.active{
+		.page-link {
+		z-index: 1;
+		color: #fff;
+		background-color: $crl-2;
+		border-color: $crl-2;
+		}
+		}
+	.page-link {
+    color:$crl-2;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+        font-size: 14px;
+        &:focus{
+        	box-shadow: none;
+        }
+}
+}
+}

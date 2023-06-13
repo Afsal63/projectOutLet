@@ -1,0 +1,18 @@
+module.exports = {
+  badRequest: "Bad request",
+  notFound: "Not found",
+  success: "Success!",
+  loggedIn: "You are logged in successfully",
+  logoutSuccess: "You are logged out successfully",
+  userNotFound: "User not found",
+  otpExpired: "OTP has expired",
+  packageLimitReached: "package limit reached, you cannot create more",
+  alreadyExist: "already Exist!",
+  invalidToken: "Invalid token",
+  updated: "Updated successfully",
+  created: "Created successfully",
+  otpNotMatch: "OTP does not match",
+  otpSend: "OTP sent successfully",
+  otpVerified: "OTP verified successfully",
+  passwordError: "Invalid password",
+};

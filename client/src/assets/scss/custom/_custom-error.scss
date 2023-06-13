@@ -1,0 +1,19 @@
+.error-wrap {
+  img {
+    max-height: 300px;
+  }
+}
+
+.no-data-holder {
+  text-align: center;
+  margin: 15px 0px;
+  p {
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+}
+
+.error-info {
+  color: $red;
+  font-size: 14px;
+}
